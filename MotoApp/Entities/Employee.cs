@@ -1,6 +1,6 @@
 ﻿namespace MotoApp.Entities
 {
-    public class Employee
+    public class Employee : EntityBase
     {
         public int Id { get; set; }
         

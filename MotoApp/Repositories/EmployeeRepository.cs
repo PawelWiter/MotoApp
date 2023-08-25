@@ -1,7 +1,6 @@
-﻿using MotoApp.Entities;
-
-namespace MotoApp.Repositories
+﻿namespace MotoApp.Repositories
 {
+    using MotoApp.Entities;
     public class EmployeeRepository
     {
         private readonly List<Employee> _employees = new();
